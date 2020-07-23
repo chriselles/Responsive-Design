@@ -14,15 +14,58 @@
 
 <p>Stuff stuff stuff stuffy stuff stuff</p>
 
-BOX
+<!--Single Box Centered -->
+<div class="flex-container">
+    <div>BOX1</div>
+  </div>
+<!--Two bixes side by side-->
+<div class="flex-container">
+    <div>BOX2</div>
+    <div>BOX2</div>
+  </div>
+<!--Two boxes side by side-->
+<div class="flex-container">
+    <div>BOX3</div>
+    <div>BOX3</div>
+  </div>
+<!--Start nested Flexbox-->
 
-BOX BOX
+<div class="container">
+  <div class="one">Box 1
+    <div class="two">Box 1A</div>
+    <div class="three">Box 1B</div>
+  </div>
+  <div class="two">Box 2</div>
+  <div class="three">Box 3</div>
+</div>
 
-BOX BOX 
+<style>
+    .container { 
+      display: flex;
+      }
+    .one {
+      background: orangered;
+      display: flex;
+      flex-direction: column;
+    }
+    .two {
+      background: yellowgreen;
+    }
+    .three {
+      background: steelblue;
+    }
+    .container div {
+      font-size: 5vw;
+      padding: .5em;
+      color: white;
+      flex: 1;
+    }
+</style>
 
+<!--End nested Flexbox-->
 
 <p>Some text will go here describing the projects I have done</p>
 
-<p>Contact Me Box</p>
+<button type="button" href="mailto:chriselles@alumni.gsb.stanford.edu">Contact Me</button>
 </body>
 </html>

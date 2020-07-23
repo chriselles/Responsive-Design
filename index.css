@@ -7,3 +7,18 @@ body {
   p {
     color: black;
   }
+
+  .flex-container {
+    display: flex;
+    background-color: white;
+  }
+  
+  .flex-container > div {
+    background-color: grey;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+
+    /*Start nested flexbox style*/
+
+    /*End nested flexbox style*/
