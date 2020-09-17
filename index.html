@@ -1,71 +1,76 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
+
 <head>
-    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style/index.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+
+
 </head>
+
 <body>
+    <header>
 
-<h1>Chris Elles </h1>
-<a href="index.html">Home</a>
-<a href="index.html">About</a>
-<a href="index.html">Contact</a>
-<a href="index.html">Objects</a>
-<p>Introducing my site</p>
+        <h1>Chris Elles</h1>
 
-<p>Stuff stuff stuff stuffy stuff stuff</p>
+        <nav>
 
-<!--Single Box Centered -->
-<div class="flex-container">
-    <div>BOX1</div>
-  </div>
-<!--Two bixes side by side-->
-<div class="flex-container">
-    <div>BOX2</div>
-    <div>BOX2</div>
-  </div>
-<!--Two boxes side by side-->
-<div class="flex-container">
-    <div>BOX3</div>
-    <div>BOX3</div>
-  </div>
-<!--Start nested Flexbox-->
+            <a href="index.html">Home</a>
 
-<div class="container">
-  <div class="one">Box 1
-    <div class="two">Box 1A</div>
-    <div class="three">Box 1B</div>
-  </div>
-  <div class="two">Box 2</div>
-  <div class="three">Box 3</div>
-</div>
+            <a href="about.html">About</a>
 
-<style>
-    .container { 
-      display: flex;
-      }
-    .one {
-      background: orangered;
-      display: flex;
-      flex-direction: column;
-    }
-    .two {
-      background: yellowgreen;
-    }
-    .three {
-      background: steelblue;
-    }
-    .container div {
-      font-size: 5vw;
-      padding: .5em;
-      color: white;
-      flex: 1;
-    }
-</style>
+            <a href="contact.html">Contact</a>
 
-<!--End nested Flexbox-->
+            <a href="projects.html">Projects</a>
 
-<p>Some text will go here describing the projects I have done</p>
+        </nav>
 
-<button type="button" href="mailto:chriselles@alumni.gsb.stanford.edu">Contact Me</button>
+    </header>
+
+    <section class="first-sect">
+        <h2>Hello and welcome to my site...</h2>
+        <p>I am a Lambda School student in the webpt23 cohort studying Software Development. </p>
+        <img src="https://getvectorlogo.com/wp-content/uploads/2019/01/lambda-school-vector-logo.png" alt="">
+    </section>
+
+    <section class="second-sect">
+
+        <img src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/lambdaschool/original.png?1560210069">
+
+        <img src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/lambdaschool/original.png?1560210069">
+
+        <img src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/lambdaschool/original.png?1560210069">
+
+        <img src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/lambdaschool/original.png?1560210069">
+
+        <p>Feel free to contact me!</p>
+
+    </section>
+
+    <footer>
+        <a href="contact.html" class="contact-button">Contact Me</a>
+
+        <div class="social-container">
+            <a href="https://www.facebook.com/chris.elles.92/" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/chris-elles/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/chriselles" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+
+    </footer>
 </body>
+
 </html>
