@@ -1,0 +1,312 @@
+  
+/*myers reset (public domain) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+	
+	/*general code*/
+	html {
+		font-size: 62.5%;
+	}
+	
+	body {
+		background-color: #282828;
+	}
+
+	p, h1, h2, h3 {
+		color: #66fcf1;
+		font-family: sans-serif;
+	}
+	
+/* header code */
+	header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	h1 {
+		font-size: 5rem;
+		text-align: center;
+		color: #66fcf1;
+		width: 30%;
+		margin-top: 5%;
+		margin-bottom: 2%;
+	}
+	
+	nav {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		width: 50%;
+		margin-bottom: 5%;
+	}
+
+	nav a {
+		font-size: 2rem;
+		text-decoration: none;
+		background: #c5c6c7;
+		color: #182f33;
+		font-size: 1.8rem;
+		border: .1rem solid black;
+		width: 30%;
+		text-align: center;
+	}
+
+	nav a:hover {
+		background: #a5e9e9;
+		color: #1e2c2f;
+	}
+
+/* first section code */ 
+.first-sect {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 5%;
+}
+
+h2 {
+	font-size: 4rem;
+	margin-bottom: 3%;
+}
+
+p {
+	width: 60%;
+	font-size: 2rem;
+	line-height: 1.5;
+	margin-bottom: 3%;
+}
+
+img {
+	width: 60%;
+}
+
+/* second section code */
+.second-sect {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 5%;
+}
+
+.second-sect img {
+	width: 10%;
+	height: 20rem;
+}
+
+
+.second-sect p {
+	width: 20%;
+	font-size: 2rem;
+	margin-right: 3%;
+}
+
+/*footer code*/
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #0b0c10;
+}
+
+.contact-button {
+	font-size: 2rem;
+	color: #a5e9e9;
+	margin-top: 3%;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 3%;
+	height: 2.5rem;
+	width: 10%;
+	padding-top: 1%;
+	border: .1rem solid #c7c5c7;
+}
+
+.contact-button:hover {
+	color: #a5e9e9;
+	border: .1rem solid #a5e9e9;
+}
+
+.social-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 40%;
+	margin-bottom: 3%;
+}
+
+.social-container a {
+	font-size: 2rem;
+	color: #66fcf1
+}
+
+.social-container a:hover{
+	color: #45a29c;
+}
+
+/* widescreen responsive code (1920px) */
+@media(max-width: 1920px) {
+	nav {
+		flex-wrap: wrap;
+	}
+
+	nav a {
+		width: 40%;
+	}
+
+	.second-sect {
+		flex-wrap: wrap;
+	}
+
+	.second-sect img {
+		width: 40%;
+		height: 70%;
+		margin-bottom: 3%;
+	}
+
+	.second-sect p {
+		width: 50%;
+		text-align: center;
+	}
+
+	.contact-button {
+		width: 35%;
+		margin-bottom: 5%;
+	}
+
+	.social-container {
+		margin-bottom: 5%;
+	}
+}
+
+/* Laptop responsive code (1366px) */
+@media(max-width: 1366px) {
+	nav {
+		flex-wrap: wrap;
+	}
+
+	nav a {
+		width: 40%;
+	}
+
+	.second-sect {
+		flex-wrap: wrap;
+	}
+
+	.second-sect img {
+		width: 40%;
+		height: 70%;
+		margin-bottom: 3%;
+	}
+
+	.second-sect p {
+		width: 50%;
+		text-align: center;
+	}
+
+	.contact-button {
+		width: 35%;
+		margin-bottom: 5%;
+	}
+
+	.social-container {
+		margin-bottom: 5%;
+	}
+}
+
+/* tablet responsive code (800px) */
+@media(max-width: 800px) {
+	nav {
+		flex-wrap: wrap;
+	}
+
+	nav a {
+		width: 40%;
+	}
+
+	.second-sect {
+		flex-wrap: wrap;
+	}
+
+	.second-sect img {
+		width: 40%;
+		height: 70%;
+		margin-bottom: 3%;
+	}
+
+	.second-sect p {
+		width: 50%;
+		text-align: center;
+	}
+
+	.contact-button {
+		width: 35%;
+		margin-bottom: 5%;
+	}
+
+	.social-container {
+		margin-bottom: 5%;
+	}
+}
+
+/*mobile responsive code (500px)*/
+@media(max-width: 500px) {
+	nav {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	nav a {
+		width: 20rem;
+		padding: 3% 0;
+	}
+
+	.first-sect img {
+    height: 60%;
+    max-width: 25%;
+	}
+
+	h2 {
+		text-align: center;
+	}
+}
+
+/*mobile response code iPhone(360px)*/
+@media(max-width: 360px) {
+	nav {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	nav a {
+		width: 20rem;
+		padding: 3% 0;
+	}
+
+	.first-sect img {
+    height: 60%;
+    max-width: 25%;
+	}
+
+	h2 {
+		text-align: center;
+	}
+}

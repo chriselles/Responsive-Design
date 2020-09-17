@@ -24,24 +24,24 @@ In this challenge you will refactor your personal portfolio code to make it resp
 
 New features of a project should occur in a new branch in the same repository. Follow these steps to set up and work on your project from yesterday:
 
-- [ ] `cd` into your personal portfolio folder
-- [ ] Create a new branch from `<firstName-lastName>`:
+- [X ] `cd` into your personal portfolio folder
+- [X ] Create a new branch from `<firstName-lastName>`:
 
 ```bash
 git checkout -b <firstName-lastName-day2> <firstName-lastName>.
 ```
 
-- [ ] Implement the project on your newly created `<firstName-lastName-day2>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName-day2>`.
+- [X ] Implement the project on your newly created `<firstName-lastName-day2>` branch, committing changes regularly.
+- [X ] Push commits: git push origin `<firstName-lastName-day2>`.
 
 ### Task 2: Minimum Viable Product
 
 Use the checklist below to guide your work today. Your final product should be presentable at mobile, tablet and a desktop-width.
 
-- [ ] Insert a viewport meta tag into the head of the project with these html attributes: content="width=device-width, initial-scale=1"
-- [ ] Introduce max-width media queries into your project at 800px and 500px
-- [ ] Add accessability features to your webpage
-- [ ] Design should closely follow the [mobile wireframe](Wireframes/) given for your chosen layout
+- [X ] Insert a viewport meta tag into the head of the project with these html attributes: content="width=device-width, initial-scale=1"
+- [X ] Introduce max-width media queries into your project at 800px and 500px
+- [X ] Add accessability features to your webpage
+- [X ] Design should closely follow the [mobile wireframe](Wireframes/) given for your chosen layout
 
 ### Task 2b: Exit Ticket
 
@@ -53,11 +53,11 @@ The completion of these questions is mandatory for MVP. However, passing the qui
 
 Once you finish the minimum viable project, work on any of the following stretch goals:
 
-- [ ]  Test your website at several breakpoints and refactor code as needed. A few common breakpoints are below:
-  - [ ]  iPhone: 360×640
-  - [ ]  Laptop: 1366×768
-  - [ ]  Widescreen: 1920×1080
-- [ ] Test your webpage's accessibility with a screen reader like [this](https://support.google.com/accessibility/answer/7031755?hl=en)
+- [X ]  Test your website at several breakpoints and refactor code as needed. A few common breakpoints are below:
+  - [X ]  iPhone: 360×640
+  - [X ]  Laptop: 1366×768
+  - [X ]  Widescreen: 1920×1080
+- [X ] Test your webpage's accessibility with a screen reader like [this](https://support.google.com/accessibility/answer/7031755?hl=en)
 - [ ] Start over with min-width media queries to get a feel for how a mobile first approach would be like. I recommend making a branch of all your content in a new folder named "mobile-first" to keep it separate
 - [ ] Test your webpage's accessibility with a screen reader like [this](https://support.google.com/accessibility/answer/7031755?hl=en)
 
@@ -83,7 +83,7 @@ Once you finish the minimum viable project, work on any of the following stretch
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [X ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete by merging the branch back into master.
 
